@@ -26,9 +26,9 @@ public class BookstoreS23Application {
 			catRepository.save(new Category("Crime"));
 			
 			
-			bookRepository.save(new Book("ABC", "Malli Mllikas", "1234-1234", 2021, 10, catRepository.findByName("Horror").get(0)));
-			bookRepository.save(new Book("DEF", "Molli Mollinen", "1234-5674", 2022, 20, catRepository.findByName("Crime").get(0)));
-			bookRepository.save(new Book("GHI", "Salli Sallila", "45434-1234", 2023, 30, catRepository.findByName("Scifi").get(0)));
+			bookRepository.save(new Book("Kirja1", "Malli Mallikas", "1234-1234", 2021, 10, catRepository.findByName("Fantasy").get(0)));
+			bookRepository.save(new Book("Kirja2", "Molli Mallinen", "1234-5674", 2022, 20, catRepository.findByName("Crime").get(0)));
+			bookRepository.save(new Book("Kirja3", "Milla Mallila", "45434-1234", 2023, 30, catRepository.findByName("Scifi").get(0)));
 		
 		
 		};

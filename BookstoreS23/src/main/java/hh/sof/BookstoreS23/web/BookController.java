@@ -13,6 +13,7 @@ import hh.sof.BookstoreS23.domain.Book;
 import hh.sof.BookstoreS23.domain.BookRepository;
 import hh.sof.BookstoreS23.domain.CategoryRepository;
 
+
 @Controller
 public class BookController {
 	
