@@ -22,7 +22,7 @@ public class BookstoreS23Application {
 	public CommandLineRunner demo(BookRepository bookRepository, CategoryRepository catRepository) {
 		return (args) -> {
 			catRepository.save(new Category("Scifi"));
-			catRepository.save(new Category("Horror"));
+			catRepository.save(new Category("Comedy"));
 			catRepository.save(new Category("Crime"));
 			
 			
